@@ -1,0 +1,41 @@
+:root {
+    --background:rgba(13,110,139,0.35) ;
+    --overlay:rgba(24,39,51,0.85);
+}
+*{
+    margin: 0;
+}
+
+.header {
+    background-color: var(--background);
+    color: white;
+    height:100vh;
+    position: relative;
+
+}
+.header:before{
+    content: '';
+    background: url('./bg.jpeg') no-repeat center/cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.header-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+button{
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+
+}
