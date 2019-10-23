@@ -1,0 +1,25 @@
+.top{
+    background: red;
+    height: 50px;
+}
+.left{
+    background: gold;
+    flex-grow: 0.2;
+    
+}
+.right{
+    background: green;
+    flex-grow: 0.2;
+
+}
+.middle{
+    background: purple;
+    flex-grow: 0.8;
+
+    
+
+}
+.container{
+    display: flex;
+    height: 250px;
+}
